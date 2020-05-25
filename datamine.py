@@ -3,10 +3,10 @@ from tweepy import StreamListener, OAuthHandler, Stream
 from textblob import TextBlob
 
 credentials = {}
-credentials['CONSUMER_KEY'] = "NFYbz1LOrf1yPt2gE2StszCJ1"
-credentials['CONSUMER_SECRET'] = "MbiuwBgXFSmuC9M6u4m3BKNSkw1512bIg4DNpmUbBt5NGmW1jw"
-credentials['ACCESS_TOKEN'] = "1251725870772957186-zvQFhOKbYJv6IbvfA2kS4hLyAogTwg"
-credentials['ACCESS_SECRET'] = "ZL2Ok63GOf7U90D2Alb3bqjKd0qZBeUazALhMmrppX7Qf"
+credentials['CONSUMER_KEY'] = ""
+credentials['CONSUMER_SECRET'] = ""
+credentials['ACCESS_TOKEN'] = ""
+credentials['ACCESS_SECRET'] = ""
 
 # Save the credentials object to file
 with open("twitter_credentials.json", "w") as file:

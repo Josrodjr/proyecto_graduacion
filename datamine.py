@@ -3,10 +3,10 @@ from tweepy import StreamListener, OAuthHandler, Stream
 from textblob import TextBlob
 
 credentials = {}
-credentials['CONSUMER_KEY'] = " "
-credentials['CONSUMER_SECRET'] = " "
-credentials['ACCESS_TOKEN'] = " "
-credentials['ACCESS_SECRET'] = " "
+credentials['CONSUMER_KEY'] = "NFYbz1LOrf1yPt2gE2StszCJ1"
+credentials['CONSUMER_SECRET'] = "MbiuwBgXFSmuC9M6u4m3BKNSkw1512bIg4DNpmUbBt5NGmW1jw"
+credentials['ACCESS_TOKEN'] = "1251725870772957186-zvQFhOKbYJv6IbvfA2kS4hLyAogTwg"
+credentials['ACCESS_SECRET'] = "ZL2Ok63GOf7U90D2Alb3bqjKd0qZBeUazALhMmrppX7Qf"
 
 # Save the credentials object to file
 with open("twitter_credentials.json", "w") as file:
@@ -63,3 +63,4 @@ if __name__ == '__main__':
     # https://stackoverflow.com/questions/49027297/how-to-get-tweets-data-that-contain-multiple-keywords
     # https://stackoverflow.com/questions/22456274/how-to-completely-remove-n-in-text-file-using-python
     # https://developer.twitter.com/en/docs/tweets/filter-realtime/guides/basic-stream-parameters
+    # https://stackabuse.com/accessing-the-twitter-api-with-python/

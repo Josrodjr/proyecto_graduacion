@@ -81,7 +81,7 @@ class Prototype(Frame):
 
         # print("Test Acc: ", score2)
         self.predicted_result.configure(text = score2)
-
+        # self.predicted_result.configure(text = random.randint(0,1))
 
     def load_model(self):
         df = pd.read_csv('prototipo_tweets.csv')
